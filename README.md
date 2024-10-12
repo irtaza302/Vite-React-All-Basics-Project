@@ -69,15 +69,19 @@ The project follows a modular structure with separate directories for components
   ```
 
 ## 📚 Available Scripts
-json
-"scripts": {
-"dev": "vite",
-"build": "tsc -b && vite build",
-"lint": "eslint .",
-"preview": "vite preview",
-"cypress:open": "cypress open",
-"cypress:run": "cypress run"
+
+```json
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  }
 }
+```
 
 ## 🔧 Configuration
 
